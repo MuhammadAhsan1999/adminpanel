@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'SF Pro';
+  src: url('../fonts/SF-Pro-Regular.otf') format('opentype');
+  /* Add other font weights and styles if available */
+}
+
+body {
+  font-family: 'SF Pro', sans-serif;
+}
